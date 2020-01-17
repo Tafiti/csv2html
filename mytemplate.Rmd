@@ -1,0 +1,27 @@
+---
+author: "author name"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+params:
+  time: "2011-08-21 08:29:40"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+&nbsp;
+
+This reading was posted on Sunday `r params$time` UTC. 
+
+**Reading**: `r tweets$text`
+
+**Link**: `r tweets$urllink`
+
+_Note: If the link above does not work, please search the title provided using your preferred search provider (this site recommends using the privacy respecting [duckduckgo](https://duckduckgo.com/))_
+
+
+
+
+
